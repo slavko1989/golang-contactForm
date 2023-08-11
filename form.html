@@ -1,0 +1,15 @@
+{{ if.Success }}
+
+<h1>Thanks we received the message</h1>
+
+{{ else }}
+<h1>Contact</h1>
+<form method="Post" action="">
+    <input type="text" name="email" placeholder="EMAIL"><BR>
+    <input type="text" name="subject" placeholder="SUBJECT"><BR>
+    <textarea name="message" type="text" placeholder="MESSAGE">
+
+    </textarea><BR>
+    <input type="submit" name="submit" value="SEND"
+</form>
+{{ end }}
